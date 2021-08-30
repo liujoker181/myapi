@@ -14,7 +14,8 @@ public class getApi {
     @RequestMapping(value = "/get1",method = RequestMethod.GET)
     public String httpgetapi1(@RequestParam String name){
         String response = null;
-        response = "hello!Welcome "+name;
+        response = "get方法1\n" +
+                "   hello!Welcome "+name;
 
         return response;
     }
@@ -28,7 +29,8 @@ public class getApi {
     @RequestMapping(value = "/get2/{name}" ,method = RequestMethod.GET)
     public String httpgetapi2(@PathVariable String name){
         String response = null;
-        response = "hello!Welcome "+name;
+        response = "get方法2\n" +
+                "   hello!Welcome "+name;
 
         return response;
     }
