@@ -10,7 +10,7 @@ public class helloApi {
      * @date 2021-08-30
      * @description 最基本的返回hello的接口
      */
-    @RequestMapping("hello")
+    @RequestMapping("/hello")
     public String helloapi(){
         return "hello";
     }
