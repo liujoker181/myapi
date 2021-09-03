@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>club.liujoker</groupId>
-	<artifactId>myapi</artifactId>
+	<artifactId>myapi_dh</artifactId>
 	<version>0.2.0</version>
 <!--	打包方式-->
 	<packaging>war</packaging>
