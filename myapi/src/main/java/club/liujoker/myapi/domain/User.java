@@ -1,5 +1,6 @@
 package club.liujoker.myapi.domain;
 
+import com.alibaba.fastjson.JSONObject;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,4 +15,5 @@ public class User {
     private Long id;
     private String username;
     private String password;
+    private JSONObject a;
 }

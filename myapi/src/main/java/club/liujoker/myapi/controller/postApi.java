@@ -34,6 +34,6 @@ public class postApi {
     @RequestMapping(value = "/get-finduser",method = RequestMethod.GET)
     public String getapi_finduser(@RequestParam Long id){
 
-        return "get-finduser success!\n"+users.get(id).toString();
+        return "get-finduser success!\n"+users.get(id).getA().toString();
     }
 }
